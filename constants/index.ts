@@ -1,18 +1,8 @@
-export const USERS_DATA = [
-    {
-    "firstName": "Tanner",
-    "lastName": "Linsley",
-    "age": 33,
-    "visits": 100,
-    "progress": 50,
-    "status": "Married"
-  },
-  {
-    "firstName": "Kevin",
-    "lastName": "Vandy",
-    "age": 27,
-    "visits": 200,
-    "progress": 100,
-    "status": "Single"
-  }
-]
+import { ROUTES } from "./routes";
+
+export const SIDEBAR_LINKS = [
+   {imgSrc: "/icons/itinerary.svg", title: "AI Trips", route: ROUTES.HOME},
+  {imgSrc: "/icons/home.svg", title: "Dashboard", route: ROUTES.DASHBOARD},
+  {imgSrc: "/icons/users.svg", title: "All Users", route: ROUTES.USERS},
+ 
+];
